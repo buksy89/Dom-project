@@ -1,0 +1,34 @@
+body {
+  margin: 20px auto;
+  border: rgb(31, 11, 51);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  padding: 4px;
+}
+.container {
+  text-align: center;
+  margin-top: 50px;
+  color: blue;
+  font: bolder;
+  box-shadow: 20ch;
+}
+#color-box {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  background-color: lightgray;
+  border: 2px solid #f57f7f;
+  border-radius: 2rem;
+}
+#change-color-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: aqua;
+  font: bold;
+  color: hsl(0, 96%, 18%);
+  border-radius: 2rem;
+}
+.show {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
